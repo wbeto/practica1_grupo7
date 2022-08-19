@@ -1,5 +1,5 @@
 module.exports = (express, app) => {
-  app.get("/PAROIMPAR/:NUMERO", function (req, res) {
+  app.post("/PAROIMPAR/:NUMERO", function (req, res) {
     //console.log('Hola mundo')
     var numero = req.params.NUMERO;
     //funcion par o impar

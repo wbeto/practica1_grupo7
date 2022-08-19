@@ -12,6 +12,9 @@ var alrevez = (cad) => {
 module.exports = (express,app) => {
 	app.get('/ALREVEZ/:PALABRA',function(req,res){
         var palabra = req.params.PALABRA;
-        res.send(alrevez(palabra))
+        var resultado = alrevez(palabra)
+        res.send({
+            resultado:resultado
+        });
 	})
 }
