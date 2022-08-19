@@ -27,7 +27,7 @@ class Division extends Component{
 
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch('http://127.0.0.1:3000/division/' + this.state.numero1+"/"+this.state.numero2)
+        fetch('http://127.0.0.1:3000/DIVI/' + this.state.numero1+"/"+this.state.numero2)
             .then(res => res.json())
             .then((json) => {
                 //imprimir en consola resultado
