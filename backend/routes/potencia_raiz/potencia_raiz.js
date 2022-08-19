@@ -15,7 +15,7 @@ module.exports = (express, app) => {
     var resultado = Math.cbrt(numero);
 
     return res.status(200).send({
-      resultado: resultado,
+      resultado: "La raiz cubica de " + numero + " es: " + resultado,
     });
   });
 };
