@@ -34,7 +34,7 @@ class Fibonacci extends Component{
             <div className="Funcion">
                 <form onSubmit={this.handleSubmit} className="Formulario">
                     <label>Fibonnacci</label>
-                    <input type="number" name="numero" max="45" min="0" onChange={this.handleChange} />
+                    <input type="number" name="numero" max="35" min="0" onChange={this.handleChange} />
 
                     <button type="submit" value="Submit">Enviar</button>
                     <p><strong>Resultado:</strong> {this.state.resultado}</p>
