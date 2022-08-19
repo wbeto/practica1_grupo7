@@ -34,7 +34,7 @@ class Raiz extends Component{
             <div className="Funcion">
                 <form onSubmit={this.handleSubmit} className="Formulario">
                     <label>Raiz Cubica</label>
-                    <input type="number" name="numero" min="0" onChange={this.handleChange} />
+                    <input type="number" name="numero" onChange={this.handleChange} />
 
                     <button type="submit" value="Submit">Enviar</button>
                     <p><strong>Resultado:</strong> {this.state.resultado}</p>
