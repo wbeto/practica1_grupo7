@@ -37,7 +37,7 @@ class Raiz extends Component{
                     <input type="number" name="numero" min="0" onChange={this.handleChange} />
 
                     <button type="submit" value="Submit">Enviar</button>
-                    {/*<p><strong>Resultado:</strong> {this.state.resultado}</p>*/}
+                    <p><strong>Resultado:</strong> {this.state.resultado}</p>
 
                 </form>
             </div>
