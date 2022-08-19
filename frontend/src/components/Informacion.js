@@ -34,7 +34,7 @@ class Informacion extends Component {
         return (
             <div className="Informacion">
 
-                {/* <div className="Datos"></div>
+                <div className="Datos"></div>
                 {
                     Object.keys(this.state.data).map((key, i) => {
                         if (key === "name") {
@@ -69,7 +69,7 @@ class Informacion extends Component {
 
                         })//endmap
                     }
-                </div> */}
+                </div>
 
 
             </div>

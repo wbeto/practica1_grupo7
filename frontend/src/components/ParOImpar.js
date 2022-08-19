@@ -37,7 +37,7 @@ class ParOImpar extends Component{
                     <input type="number" name="numero" onChange={this.handleChange} />
 
                     <button type="submit" value="Submit">Enviar</button>
-                    {/* <p><strong>Resultado:</strong> {this.state.resultado}</p> */}
+                    <p><strong>Resultado:</strong> {this.state.resultado}</p>
 
                 </form>
             </div>

@@ -47,7 +47,7 @@ class Multiplicacion extends Component{
                     <input type="number" name="numero2" onChange={this.handleChange2} />
 
                     <button type="submit" value="Submit">Enviar</button>
-                    {/* <p><strong>Resultado:</strong> {this.state.resultado}</p> */}
+                    <p><strong>Resultado:</strong> {this.state.resultado}</p>
 
                 </form>
             </div>

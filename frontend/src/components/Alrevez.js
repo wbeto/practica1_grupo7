@@ -44,7 +44,7 @@ class Alrevez extends Component{
                     <input type="text" name="palabra" onChange={this.handleChange} />
 
                     <button type="submit" value="Submit">Enviar</button>
-                    {/* <p><strong>Resultado:</strong> {this.state.resultado}</p> */}
+                    <p><strong>Resultado:</strong> {this.state.resultado}</p>
 
                 </form>
             </div>
