@@ -280,7 +280,7 @@ background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, F
   font-size: 20px;
   
   color: #F15412;
-  text-transform: uppercase;
+  text-transform: lowercase;
   
 }
 
