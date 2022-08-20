@@ -18,3 +18,5 @@ module.exports = (express,app) => {
         });
 	})
 }
+
+//Se hizo un comentario en este modulo para que no se repita el codigo en el otro modulo.
